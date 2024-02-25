@@ -3,3 +3,95 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    /* background-color: yellow; */    
+}
+
+.contenido {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.contenido h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;    
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.tareas h3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;  
+}
+.tareas li {
+    background: linear-gradient(to bottom right, #f0fc0c, #e44607);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    margin: 5px 0;
+}
+.tareas i {
+    font-size: 25px;
+}
+.tareas i:hover {
+    color: red;
+    cursor: pointer;
+}
+.tareas>ul p {
+    font-size: 1.2rem;
+}
+.tachado {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+    vertical-align: baseline;
+}
+
+
+@media (max-width: 680px) {
+    .container {
+        background-color: white; 
+    }
+    .contenido {
+        margin-top: 50px; 
+    }
+    .input {
+        background: #edeef0; 
+    }
+}
