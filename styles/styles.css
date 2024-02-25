@@ -3,12 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .container {
     width: 100%;
     min-height: 100vh;
     padding: 10px;
-    background-color: yellow;
+    /* background-color: yellow; */    
 }
 
 .contenido {
@@ -23,7 +22,7 @@
 .contenido h1 {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 .input {
@@ -44,7 +43,6 @@ input {
     padding: 10px;
     font-weight: 14px;
 }
-
 button {
     border: none;
     outline: none;
@@ -61,7 +59,7 @@ button {
     margin-bottom: 20px;  
 }
 .tareas li {
-    background-color: #edeef0;
+    background: linear-gradient(to bottom right, #f0fc0c, #e44607);
     display: flex;
     justify-content: space-between;
     border-radius: 15px;
@@ -69,20 +67,16 @@ button {
     align-items: center;
     margin: 5px 0;
 }
-
 .tareas i {
     font-size: 25px;
 }
-
 .tareas i:hover {
     color: red;
     cursor: pointer;
 }
-
 .tareas>ul p {
     font-size: 1.2rem;
 }
-
 .tachado {
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.5);
